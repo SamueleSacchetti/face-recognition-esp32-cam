@@ -7,6 +7,7 @@ In this job, we used the ESP32-Cam to perform real-time inference using a pre-tr
 We started with a "manual approach", performing a fine-tuning process on the MobileNetV2 model. The dataset used was composed of our faces and unknown people faces pictures. During the implementation (using Micropython as programming language and Thonny as IDE), we faced two main problems:
     1. the model we got was too big to save and run on the device;
     2. there is not a Tensorflow Lite library for Micropython.
+    
 This solution can be found [here](./python_customModel).
 
   ### Second Approach
