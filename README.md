@@ -41,5 +41,6 @@ As yuo can see in the source code, you can define the PIN where you can connect 
 #define PIN_BLUE 2
 #define PIN_GREEN 15
 #define PIN_RED 32
+```
 
 The model can be find [here](arduino_edge_impulse/src/tflite-model).
